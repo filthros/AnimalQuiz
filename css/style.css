@@ -1,0 +1,109 @@
+* {
+	font-family: Verdana, Lucida Sans, Arial, Helvetica, sans-serif;
+}
+
+body {
+	margin: 0px auto;
+	background-color: #222;
+}
+
+.contents {
+	display: flex;
+	display: -webkit-flex;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	height: 360px;
+	width: 360px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.overlay {
+	display: none;
+	height: 360px;
+	width: 360px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99999;
+	padding-top: 150px;
+	text-align: center;
+	-background-image: url("../images/win.png");
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+
+.instrucciones {
+	display: block;
+	height: 360px;
+	width: 360px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99999;
+	padding-top: 220px;
+	text-align: center;
+	background-image: url("../images/animales_fondo.jpeg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.title {
+	font-weight: bold;
+	font-size: 28px;
+	color: #26e042;
+}
+
+.subtitle {
+	font-size: 20px;
+	color: #ffffff;
+}
+
+#buhoImg {
+	display: none;
+}
+
+#caballoImg {
+	display: none;
+}
+
+#cerdoImg {
+	display: none;
+}
+
+#chimpanceImg {
+	display: none;
+}
+
+#elefanteImg {
+	display: none;
+}
+
+#galloImg {
+	display: none;
+}
+
+#osoImg {
+	display: none;
+}
+
+#ovejaImg {
+	display: none;
+}
+
+#patoImg {
+	display: none;
+}
+
+#perroImg {
+	display: none;
+}
+
+#tigreImg {
+	display: none;
+}
+
+#vacaImg {
+	display: none;
+}
