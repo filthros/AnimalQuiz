@@ -4,7 +4,7 @@
 
 body {
 	margin: 0px auto;
-	background-color: #222;
+	background-color: #FFF;
 }
 
 .contents {
@@ -28,10 +28,44 @@ body {
 	z-index: 99999;
 	padding-top: 150px;
 	text-align: center;
-	-background-image: url("../images/win.png");
-    background-repeat: no-repeat;
-    background-size: auto 100%;
-    background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-position: center;
+	background-color: #222;
+}
+
+.correcto {
+	display: none;
+	height: 360px;
+	width: 360px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99999;
+	padding-top: 150px;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-position: center;
+	background-color: #222;
+	background-image: url("../images/correcto.png");
+}
+
+.incorrecto {
+	display: none;
+	height: 360px;
+	width: 360px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99999;
+	padding-top: 150px;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-position: center;
+	background-color: #222;
+	background-image: url("../images/incorrecto.png");
 }
 
 .instrucciones {
@@ -47,63 +81,25 @@ body {
 	background-image: url("../images/animales_fondo.jpeg");
 	background-repeat: no-repeat;
 	background-size: 100%;
+	background-color: #222;
 }
 
 .title {
 	font-weight: bold;
-	font-size: 28px;
+	font-size: 26px;
 	color: #26e042;
 }
 
 .subtitle {
-	font-size: 20px;
+	font-size: 16px;
 	color: #ffffff;
 }
 
-#buhoImg {
-	display: none;
+.img {
+	height: 360px;
+	width: 360px;
 }
 
-#caballoImg {
-	display: none;
-}
-
-#cerdoImg {
-	display: none;
-}
-
-#chimpanceImg {
-	display: none;
-}
-
-#elefanteImg {
-	display: none;
-}
-
-#galloImg {
-	display: none;
-}
-
-#osoImg {
-	display: none;
-}
-
-#ovejaImg {
-	display: none;
-}
-
-#patoImg {
-	display: none;
-}
-
-#perroImg {
-	display: none;
-}
-
-#tigreImg {
-	display: none;
-}
-
-#vacaImg {
+#animalImg {
 	display: none;
 }
